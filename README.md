@@ -19,3 +19,4 @@ Steps for running project API first
     Password: abc123#
     
     (If build didn't succeed, restart VS and run the project and Restore Nuget Packages and try.)
+    (project based on Code First Approch Entityframe work).
