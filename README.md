@@ -17,3 +17,5 @@ Steps for running project API first
 
     Login ID: admin@testnepal.com
     Password: abc123#
+    
+    (If build didn't succeed, restart VS and run the project and Restore Nuget Packages and try.)
