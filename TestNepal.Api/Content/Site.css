@@ -1,0 +1,141 @@
+﻿body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+  max-width: 280px; }
+
+.login {
+  background-color: #007cb4; }
+  .login .white {
+    background-color: #FFF; }
+  .login .logo {
+    text-align: center; }
+    .login .logo a {
+      display: inline-block;
+      margin: 30px auto 0;
+      text-align: center; }
+      .login .logo a img {
+        text-align: center; }
+  .login form h3 {
+    margin-bottom: 15px;
+    text-align: center; }
+  .login form .form-group {
+    margin-top: 40px; }
+  .login .display-hide {
+    display: none; }
+  .login .minheight {
+    margin-bottom: 30px;
+    padding: 0 20px; }
+  .login .textbox {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    background: #f3f6f7;
+    border-radius: 25px;
+    padding: 0 25px;
+    margin-top: 0;
+    display: inline-block;
+    min-width: 100%; }
+
+.global-btnsolid {
+  display: inline-block;
+  line-height: 20px;
+  background: #D3DF22;
+  color: #03265C;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: inset 0 0 0 9999px transparent;
+  padding: 15px 40px;
+  cursor: pointer;
+  /* Transition Property */
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow; }
+  .global-btnsolid:hover {
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.1); }
+  .global-btnsolid.dark {
+    background-color: #1A1718;
+    color: #FFF; }
+  .global-btnsolid.lightblue {
+    background-color: #00A5DD;
+    color: #FFF; }
+  .global-btnsolid.blue {
+    background-color: #0078B0;
+    color: #FFF; }
+  .global-btnsolid.darkblue {
+    background-color: #00356F;
+    color: #FFF; }
+  .global-btnsolid:disabled {
+    cursor: no-drop; }
+
+.round-label {
+  display: block;
+  color: #000;
+  margin: 10px 0 0; }
+  .round-label .round {
+    position: relative;
+    margin: 0 0;
+    color: #000;
+    display: inline-block;
+    float: left; }
+    .round-label .round label {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      cursor: pointer;
+      height: 28px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 28px;
+      display: block;
+      max-width: initial;
+      max-height: initial;
+      margin-bottom: initial;
+      font-weight: initial; }
+      .round-label .round label:after {
+        border: 2px solid #ccc;
+        border-top: none;
+        border-right: none;
+        content: "";
+        height: 6px;
+        left: 7px;
+        opacity: 0;
+        position: absolute;
+        top: 8px;
+        transform: rotate(-45deg);
+        width: 12px; }
+    .round-label .round input[type="checkbox"] {
+      visibility: hidden; }
+      .round-label .round input[type="checkbox"]:checked + label:after {
+        opacity: 1; }
+    .round-label .round input[type="radio"] {
+      visibility: hidden; }
+      .round-label .round input[type="radio"]:checked + label:after {
+        opacity: 1; }
+  .round-label .check-box-label {
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+    padding: 0 0 20px 0;
+    line-height: 28px; }
+
+.copyright {
+  margin: 30px 0 20px 10px; }
+
