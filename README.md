@@ -3,7 +3,6 @@
 
 Steps for running project API first
 
-
 1. Open API project in visual studio 2017 and install all the packages.
 
 2. Make sure all the packages installed and build successfully.
